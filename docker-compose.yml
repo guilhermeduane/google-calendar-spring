@@ -1,0 +1,26 @@
+version: "3"
+services:
+  gcalendar-app:
+    depends_on:
+      - mysqldb
+    image: gcalendar-app
+    restart: always
+    build: .
+    ports:
+      - "8080:8080"
+      - "8888:8888"
+    environment:
+      MYSQL_HOST: mysqldb
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 12345678
+      MYSQL_PORT: 3306
+  mysqldb:
+    container_name: mysqldb
+    image: mysql
+    volumes:
+      -  /home/user/Desktop/db:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: gcalendar
+      MYSQL_ROOT_PASSWORD: 12345678
