@@ -1,4 +1,4 @@
-package model;
+package gcalendar.model;
 
 import lombok.Data;
 

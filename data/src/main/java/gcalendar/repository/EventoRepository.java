@@ -1,7 +1,7 @@
-package repository;
+package gcalendar.repository;
 
 
-import model.Evento;
+import gcalendar.model.Evento;
 import org.springframework.data.repository.CrudRepository;
 
 

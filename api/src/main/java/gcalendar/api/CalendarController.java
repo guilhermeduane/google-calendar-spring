@@ -1,15 +1,15 @@
-package api;
+package gcalendar.api;
 
 
 
-import calendar.service.GCalendarAddEventService;
-import calendar.service.GCalendarShowEventsService;
-import calendar.service.GcalendarDeleteEventService;
-import model.Evento;
+import gcalendar.service.GCalendarAddEventService;
+import gcalendar.service.GCalendarShowEventsService;
+import gcalendar.service.GcalendarDeleteEventService;
+import gcalendar.model.Evento;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import repository.EventoRepository;
+import gcalendar.repository.EventoRepository;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

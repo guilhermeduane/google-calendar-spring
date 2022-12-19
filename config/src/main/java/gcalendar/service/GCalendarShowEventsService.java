@@ -1,4 +1,4 @@
-package calendar.service;
+package gcalendar.service;
 
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.List;
 
-import static calendar.config.GCalendarConfig.getCredentials;
+import static gcalendar.config.GCalendarConfig.getCredentials;
 
 
 public class GCalendarShowEventsService {

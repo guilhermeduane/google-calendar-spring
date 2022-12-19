@@ -1,11 +1,11 @@
 FROM maven:3.5.2-jdk-8-alpine AS MAVEN_TOOL_CHAIN
+
 COPY pom.xml /tmp/
-COPY calendar /tmp/calendar/
 COPY api /tmp/api/
+COPY calendar /tmp/calendar
 COPY domain /tmp/domain/
 COPY api /tmp/api/
 COPY config /tmp/config/
-COPY calendar /tmp/calendar/
 COPY data /tmp/data/
 
 

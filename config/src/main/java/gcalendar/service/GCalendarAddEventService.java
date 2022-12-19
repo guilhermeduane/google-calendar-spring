@@ -1,4 +1,4 @@
-package calendar.service;
+package gcalendar.service;
 
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
@@ -10,12 +10,12 @@ import com.google.api.services.calendar.model.Event;
 import com.google.api.services.calendar.model.EventAttendee;
 import com.google.api.services.calendar.model.EventDateTime;
 import com.google.api.services.calendar.model.EventReminder;
-import model.Evento;
+import gcalendar.model.Evento;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.Arrays;
-import static calendar.config.GCalendarConfig.getCredentials;
+import static gcalendar.config.GCalendarConfig.getCredentials;
 
 public class GCalendarAddEventService {
 
