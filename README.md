@@ -11,7 +11,7 @@ docker-compose up --build
 ```
 You can debug app on container using port 5005.
 
-##💻 Test Spring API 
+## 💻 Test Spring API 
 Use the collection file gcalendar.postman_collection.json to test the application
 
 ## 😄 TODO 
