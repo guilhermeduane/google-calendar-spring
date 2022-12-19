@@ -19,5 +19,4 @@ TODO Tasks :
 * Adjust the Event template to receive the daily frequency of the event, attendee's email and reminders (email and pop-up)
 * Synchronize the database with the data obtained from the API
 * Add Google Drive attachments to events
-* Add Google Drive attachments to events
 * Create new endpoints to Spring App
