@@ -4,7 +4,6 @@ COPY pom.xml /tmp/
 COPY api /tmp/api/
 COPY calendar /tmp/calendar
 COPY domain /tmp/domain/
-COPY api /tmp/api/
 COPY config /tmp/config/
 COPY data /tmp/data/
 
