@@ -1,5 +1,9 @@
 # Google Calendar Spring API
 Example of using the google calendar API with Spring Boot, MySQL and Docker Compose.
+## Enable the API and authorize credentials for a desktop application
+
+Follow the steps: https://developers.google.com/calendar/api/quickstart/java
+
 ## 🚀 Run Application
 To run application just run Docker Compose:
 ```
